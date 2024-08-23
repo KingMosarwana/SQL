@@ -85,7 +85,6 @@ FROM
         WHERE
             prep_registration.attribute_category = 'Prepaid' AND PREPAID_STATUS = 'A' 
 
-    katlo moreeng Mosarwana
     ) a 
 WHERE COUNTRY IS NOT NULL AND PERSON_FIRST_NAME IS NOT NULL AND PERSON_LAST_NAME IS NOT NULL AND date_of_birth is not null and gender is not null and 
 person_iden_type is not null AND PERSON_IDENTIFIER IS NOT NULL AND PHYSICALADDRESS IS NOT NULL AND POSTALADDRESS IS NOT NULL and COUNTRY = 'Botswana'
