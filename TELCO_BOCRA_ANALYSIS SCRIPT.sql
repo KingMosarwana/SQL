@@ -92,3 +92,4 @@ person_iden_type is not null AND PERSON_IDENTIFIER IS NOT NULL AND PHYSICALADDRE
 where id_length  IN ('OK', 'UNKNOWN') and gender_validation  in ('OK','UNKNOWN') and 
 country_validation IN ('OK', 'UNKNOWN') AND first_name_validation IN ('OK', 'UNKNOWN') AND last_name_validation IN ('OK', 'UNKNOWN') AND dob_validation IN ('OK', 'UNKNOWN') AND 
 VERIFICATIONSTATE IS NULL 
+katlo
